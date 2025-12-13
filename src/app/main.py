@@ -10,15 +10,14 @@ logger.setLevel(logging.INFO)
 formatter = logging.Formatter(
     "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 )
-# Логирование в файл
 file_handler = logging.FileHandler("app.log")
 file_handler.setFormatter(formatter)
 
-# Логирование в консоль
+
 console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 
-# Добавляем обработчики к логгеру
+
 logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
