@@ -2,9 +2,11 @@ import asyncpg
 import logging
 from config import settings
 
+from repositories.users import Users
+
 logger = logging.getLogger("my_app.database")
 
-class DatabaseManager:
+class DatabaseManager(Users):
     def __init__(self):
         self.pool = None
     
