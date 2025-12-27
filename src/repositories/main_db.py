@@ -3,10 +3,10 @@ import logging
 from config import settings
 
 from repositories.users import Users
-
+from repositories.tickets import Tickets
 logger = logging.getLogger("my_app.database")
 
-class DatabaseManager(Users):
+class DatabaseManager(Users,Tickets):
     def __init__(self):
         self.pool = None
     

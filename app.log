@@ -133,3 +133,58 @@ DETAIL:  Ошибочная строка содержит (1, user_l2e7cxdr, Admin, info@decor-m.com, 2
 2025-12-23 22:20:55,798 | INFO | my_app.database | Creating connection pool
 2025-12-23 22:20:56,916 | INFO | my_app.database | Connection pool created
 2025-12-23 22:20:56,916 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:20:08,044 | INFO | my_app | App starting...
+2025-12-25 19:20:08,045 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:20:08,308 | ERROR | my_app.database | Error while create pool: connection was closed in the middle of operation
+2025-12-25 19:20:08,308 | INFO | my_app.database | Error while trying to create connection pool, Error code: connection was closed in the middle of operation
+2025-12-25 19:25:10,837 | INFO | my_app | App starting...
+2025-12-25 19:25:10,837 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:25:10,919 | ERROR | my_app.database | Error while create pool: connection was closed in the middle of operation
+2025-12-25 19:25:10,919 | INFO | my_app.database | Error while trying to create connection pool, Error code: connection was closed in the middle of operation
+2025-12-25 19:29:30,862 | INFO | my_app | App starting...
+2025-12-25 19:29:30,863 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:29:31,123 | INFO | my_app.database | Connection pool created
+2025-12-25 19:29:31,123 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:31:11,432 | INFO | my_app.database | Process for close pool
+2025-12-25 19:31:11,437 | INFO | my_app.database | Pool is closed
+2025-12-25 19:31:11,437 | INFO | my_app | App shutting down...
+2025-12-25 19:31:12,381 | INFO | my_app | App starting...
+2025-12-25 19:31:12,381 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:31:12,648 | INFO | my_app.database | Connection pool created
+2025-12-25 19:31:12,648 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:31:28,925 | INFO | my_app.database | Process for close pool
+2025-12-25 19:31:28,929 | INFO | my_app.database | Pool is closed
+2025-12-25 19:31:28,930 | INFO | my_app | App shutting down...
+2025-12-25 19:31:29,801 | INFO | my_app | App starting...
+2025-12-25 19:31:29,802 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:31:30,208 | INFO | my_app.database | Connection pool created
+2025-12-25 19:31:30,209 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:36:06,402 | INFO | my_app.database | Process for close pool
+2025-12-25 19:36:06,406 | INFO | my_app.database | Pool is closed
+2025-12-25 19:36:06,406 | INFO | my_app | App shutting down...
+2025-12-25 19:37:29,255 | INFO | my_app | App starting...
+2025-12-25 19:37:29,256 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:37:29,505 | INFO | my_app.database | Connection pool created
+2025-12-25 19:37:29,506 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:37:36,861 | INFO | my_app.database | Process for close pool
+2025-12-25 19:37:36,865 | INFO | my_app.database | Pool is closed
+2025-12-25 19:37:36,865 | INFO | my_app | App shutting down...
+2025-12-25 19:38:06,872 | INFO | my_app | App starting...
+2025-12-25 19:38:06,873 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:38:07,250 | INFO | my_app.database | Connection pool created
+2025-12-25 19:38:07,250 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:38:13,204 | INFO | my_app.database | Process for close pool
+2025-12-25 19:38:13,208 | INFO | my_app.database | Pool is closed
+2025-12-25 19:38:13,209 | INFO | my_app | App shutting down...
+2025-12-25 19:38:14,127 | INFO | my_app | App starting...
+2025-12-25 19:38:14,128 | INFO | my_app.database | Creating connection pool
+2025-12-25 19:38:14,485 | INFO | my_app.database | Connection pool created
+2025-12-25 19:38:14,486 | INFO | my_app.database | DATABASE pool is init.
+2025-12-25 19:40:25,362 | INFO | my_app.database.users | User user_0ph2ev9t created successfully.
+2025-12-25 21:27:55,331 | INFO | my_app.database | Process for close pool
+2025-12-25 21:27:55,334 | INFO | my_app.database | Pool is closed
+2025-12-25 21:27:55,334 | INFO | my_app | App shutting down...
+2025-12-25 21:27:56,447 | INFO | my_app | App starting...
+2025-12-25 21:27:56,448 | INFO | my_app.database | Creating connection pool
+2025-12-25 21:27:56,836 | INFO | my_app.database | Connection pool created
+2025-12-25 21:27:56,836 | INFO | my_app.database | DATABASE pool is init.

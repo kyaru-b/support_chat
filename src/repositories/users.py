@@ -9,8 +9,7 @@ LOGGER = logging.getLogger("my_app.database.users")
 class Users:
     def __init__(self, pool: asyncpg.Pool):
         self.pool = pool
-
-
+    """INSERT requests"""
     async def create_user(self, username: str, email: str, role: str):
         try:
             async with self.pool.acquire() as conn:
@@ -27,8 +26,8 @@ class Users:
         except Exception as e:
             LOGGER.error(f"Error creating user {username}: {e}")
             return None       
-    
-
+        
+    """SELECT requests"""
     async def get_user_by_username(self, username: str):
         try:
             async with self.pool.acquire() as conn:
@@ -49,3 +48,15 @@ class Users:
         except Exception as e:
             LOGGER.error(f"Error fetching all users: {e}")
             return []
+        
+    async def get_users_by_mail(self, email: str):
+        try:
+            async with self.pool.acquire() as conn:
+                users = await conn.fetch(
+                    "SELECT * FROM users WHERE mail = $1;",
+                    email
+                )
+                return users
+        except Exception as e:
+            LOGGER.error(f"Error fetching users by mail {email}: {e}")
+            return None
