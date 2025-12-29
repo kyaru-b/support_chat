@@ -7,3 +7,254 @@
 2025-12-14 22:52:54,319 | INFO | my_app.database | Proсess for close pool
 2025-12-14 22:52:54,327 | INFO | my_app.database | Pool is close
 2025-12-14 22:52:54,329 | INFO | my_app | App shutting down...
+2025-12-29 02:34:22,827 | INFO | my_app | App starting...
+2025-12-29 02:34:22,827 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:34:22,910 | ERROR | my_app.database | Error while create pool: connection was closed in the middle of operation
+2025-12-29 02:34:22,910 | INFO | my_app.database | Error while trying to create connection pool, Error code: connection was closed in the middle of operation
+2025-12-29 02:34:41,911 | INFO | my_app | App starting...
+2025-12-29 02:34:41,911 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:34:42,167 | INFO | my_app.database | Connection pool created
+2025-12-29 02:34:42,167 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:36:57,598 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: invalid input for query argument $1: <Record id=1> ('asyncpg.protocol.record.Record' object cannot be interpreted as an integer)
+2025-12-29 02:38:53,362 | INFO | my_app.database | Process for close pool
+2025-12-29 02:38:53,363 | INFO | my_app.database | Pool is closed
+2025-12-29 02:38:53,363 | INFO | my_app | App shutting down...
+2025-12-29 02:38:54,176 | INFO | my_app | App starting...
+2025-12-29 02:38:54,176 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:38:54,423 | INFO | my_app.database | Connection pool created
+2025-12-29 02:38:54,423 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:38:55,152 | INFO | my_app.database | Process for close pool
+2025-12-29 02:38:55,156 | INFO | my_app.database | Pool is closed
+2025-12-29 02:38:55,157 | INFO | my_app | App shutting down...
+2025-12-29 02:39:06,618 | INFO | my_app | App starting...
+2025-12-29 02:39:06,618 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:39:06,859 | INFO | my_app.database | Connection pool created
+2025-12-29 02:39:06,859 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:39:09,437 | INFO | my_app.database | Process for close pool
+2025-12-29 02:39:09,439 | INFO | my_app.database | Pool is closed
+2025-12-29 02:39:09,439 | INFO | my_app | App shutting down...
+2025-12-29 02:39:10,188 | INFO | my_app | App starting...
+2025-12-29 02:39:10,188 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:39:10,558 | INFO | my_app.database | Connection pool created
+2025-12-29 02:39:10,558 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:39:12,000 | INFO | my_app.database | Process for close pool
+2025-12-29 02:39:12,004 | INFO | my_app.database | Pool is closed
+2025-12-29 02:39:12,004 | INFO | my_app | App shutting down...
+2025-12-29 02:39:12,750 | INFO | my_app | App starting...
+2025-12-29 02:39:12,750 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:39:13,006 | INFO | my_app.database | Connection pool created
+2025-12-29 02:39:13,007 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:39:18,822 | INFO | my_app.database.users | Ticket for user user_0ph2ev9t created successfully.
+2025-12-29 02:41:47,207 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(1)" уже существует.
+2025-12-29 02:41:48,888 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(1)" уже существует.
+2025-12-29 02:45:29,777 | INFO | my_app.database.users | Ticket for user user_0ph2ev9t created successfully.
+2025-12-29 02:46:12,116 | INFO | my_app.database | Process for close pool
+2025-12-29 02:46:12,119 | INFO | my_app.database | Pool is closed
+2025-12-29 02:46:12,119 | INFO | my_app | App shutting down...
+2025-12-29 02:46:13,009 | INFO | my_app | App starting...
+2025-12-29 02:46:13,010 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:46:13,249 | INFO | my_app.database | Connection pool created
+2025-12-29 02:46:13,249 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:46:25,068 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(1)" уже существует.
+2025-12-29 02:47:33,480 | INFO | my_app.database | Process for close pool
+2025-12-29 02:47:33,483 | INFO | my_app.database | Pool is closed
+2025-12-29 02:47:33,484 | INFO | my_app | App shutting down...
+2025-12-29 02:47:34,316 | INFO | my_app | App starting...
+2025-12-29 02:47:34,317 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:47:34,592 | INFO | my_app.database | Connection pool created
+2025-12-29 02:47:34,594 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:47:44,447 | INFO | my_app.database | Process for close pool
+2025-12-29 02:47:44,450 | INFO | my_app.database | Pool is closed
+2025-12-29 02:47:44,450 | INFO | my_app | App shutting down...
+2025-12-29 02:47:45,273 | INFO | my_app | App starting...
+2025-12-29 02:47:45,273 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:47:45,517 | INFO | my_app.database | Connection pool created
+2025-12-29 02:47:45,518 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:48:15,887 | INFO | my_app.database | Process for close pool
+2025-12-29 02:48:15,891 | INFO | my_app.database | Pool is closed
+2025-12-29 02:48:15,891 | INFO | my_app | App shutting down...
+2025-12-29 02:48:45,481 | INFO | my_app | App starting...
+2025-12-29 02:48:45,481 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:48:45,836 | INFO | my_app.database | Connection pool created
+2025-12-29 02:48:45,837 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:48:48,286 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(1)" уже существует.
+2025-12-29 02:49:21,692 | INFO | my_app.database | Process for close pool
+2025-12-29 02:49:21,695 | INFO | my_app.database | Pool is closed
+2025-12-29 02:49:21,695 | INFO | my_app | App shutting down...
+2025-12-29 02:49:22,490 | INFO | my_app | App starting...
+2025-12-29 02:49:22,490 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:49:22,742 | INFO | my_app.database | Connection pool created
+2025-12-29 02:49:22,743 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:49:25,354 | ERROR | my_app.database.users | Error creating ticket for user user_0ph2ev9t: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(1)" уже существует.
+2025-12-29 02:49:52,476 | INFO | my_app.database.users | Ticket for user user_0ph2ev9t created successfully.
+2025-12-29 02:51:18,768 | INFO | my_app.database | Process for close pool
+2025-12-29 02:51:18,772 | INFO | my_app.database | Pool is closed
+2025-12-29 02:51:18,772 | INFO | my_app | App shutting down...
+2025-12-29 02:51:19,636 | INFO | my_app | App starting...
+2025-12-29 02:51:19,636 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:51:19,875 | INFO | my_app.database | Connection pool created
+2025-12-29 02:51:19,875 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:51:25,535 | INFO | my_app.database | Process for close pool
+2025-12-29 02:51:25,536 | INFO | my_app.database | Pool is closed
+2025-12-29 02:51:25,536 | INFO | my_app | App shutting down...
+2025-12-29 02:51:26,324 | INFO | my_app | App starting...
+2025-12-29 02:51:26,324 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:51:26,566 | INFO | my_app.database | Connection pool created
+2025-12-29 02:51:26,566 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:51:51,529 | INFO | my_app.database | Process for close pool
+2025-12-29 02:51:51,529 | INFO | my_app.database | Pool is closed
+2025-12-29 02:51:51,529 | INFO | my_app | App shutting down...
+2025-12-29 02:51:55,176 | INFO | my_app | App starting...
+2025-12-29 02:51:55,176 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:51:55,427 | INFO | my_app.database | Connection pool created
+2025-12-29 02:51:55,427 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:51:58,323 | INFO | my_app.database | Process for close pool
+2025-12-29 02:51:58,327 | INFO | my_app.database | Pool is closed
+2025-12-29 02:51:58,327 | INFO | my_app | App shutting down...
+2025-12-29 02:51:59,094 | INFO | my_app | App starting...
+2025-12-29 02:51:59,094 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:51:59,337 | INFO | my_app.database | Connection pool created
+2025-12-29 02:51:59,337 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:52:13,890 | INFO | my_app.database | Process for close pool
+2025-12-29 02:52:13,894 | INFO | my_app.database | Pool is closed
+2025-12-29 02:52:13,894 | INFO | my_app | App shutting down...
+2025-12-29 02:52:14,699 | INFO | my_app | App starting...
+2025-12-29 02:52:14,699 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:52:14,951 | INFO | my_app.database | Connection pool created
+2025-12-29 02:52:14,951 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:52:15,488 | INFO | my_app.database | Process for close pool
+2025-12-29 02:52:15,488 | INFO | my_app.database | Pool is closed
+2025-12-29 02:52:15,488 | INFO | my_app | App shutting down...
+2025-12-29 02:52:17,032 | INFO | my_app | App starting...
+2025-12-29 02:52:17,032 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:52:17,379 | INFO | my_app.database | Connection pool created
+2025-12-29 02:52:17,379 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 02:53:23,172 | INFO | my_app.database | Process for close pool
+2025-12-29 02:53:23,176 | INFO | my_app.database | Pool is closed
+2025-12-29 02:53:23,176 | INFO | my_app | App shutting down...
+2025-12-29 02:53:23,986 | INFO | my_app | App starting...
+2025-12-29 02:53:23,986 | INFO | my_app.database | Creating connection pool
+2025-12-29 02:53:24,362 | INFO | my_app.database | Connection pool created
+2025-12-29 02:53:24,362 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:43:23,549 | INFO | my_app.database | Process for close pool
+2025-12-29 03:43:23,550 | INFO | my_app.database | Pool is closed
+2025-12-29 03:43:23,550 | INFO | my_app | App shutting down...
+2025-12-29 03:43:24,451 | INFO | my_app | App starting...
+2025-12-29 03:43:24,452 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:43:24,689 | INFO | my_app.database | Connection pool created
+2025-12-29 03:43:24,689 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:44:23,159 | INFO | my_app.database | Process for close pool
+2025-12-29 03:44:23,162 | INFO | my_app.database | Pool is closed
+2025-12-29 03:44:23,163 | INFO | my_app | App shutting down...
+2025-12-29 03:44:24,002 | INFO | my_app | App starting...
+2025-12-29 03:44:24,003 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:44:24,245 | INFO | my_app.database | Connection pool created
+2025-12-29 03:44:24,245 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:46:12,044 | INFO | my_app.database | Process for close pool
+2025-12-29 03:46:12,047 | INFO | my_app.database | Pool is closed
+2025-12-29 03:46:12,048 | INFO | my_app | App shutting down...
+2025-12-29 03:46:12,894 | INFO | my_app | App starting...
+2025-12-29 03:46:12,894 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:46:13,155 | INFO | my_app.database | Connection pool created
+2025-12-29 03:46:13,156 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:47:11,766 | INFO | my_app.database | Process for close pool
+2025-12-29 03:47:11,766 | INFO | my_app.database | Pool is closed
+2025-12-29 03:47:11,766 | INFO | my_app | App shutting down...
+2025-12-29 03:47:12,590 | INFO | my_app | App starting...
+2025-12-29 03:47:12,591 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:47:12,900 | INFO | my_app.database | Connection pool created
+2025-12-29 03:47:12,900 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:47:31,898 | INFO | my_app.database | Process for close pool
+2025-12-29 03:47:31,899 | INFO | my_app.database | Pool is closed
+2025-12-29 03:47:31,899 | INFO | my_app | App shutting down...
+2025-12-29 03:47:32,716 | INFO | my_app | App starting...
+2025-12-29 03:47:32,716 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:47:32,980 | INFO | my_app.database | Connection pool created
+2025-12-29 03:47:32,980 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:47:33,189 | INFO | my_app.database | Process for close pool
+2025-12-29 03:47:33,193 | INFO | my_app.database | Pool is closed
+2025-12-29 03:47:33,193 | INFO | my_app | App shutting down...
+2025-12-29 03:47:33,963 | INFO | my_app | App starting...
+2025-12-29 03:47:33,963 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:47:34,202 | INFO | my_app.database | Connection pool created
+2025-12-29 03:47:34,202 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:48:05,375 | INFO | my_app.database | Process for close pool
+2025-12-29 03:48:05,379 | INFO | my_app.database | Pool is closed
+2025-12-29 03:48:05,380 | INFO | my_app | App shutting down...
+2025-12-29 03:48:06,187 | INFO | my_app | App starting...
+2025-12-29 03:48:06,188 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:48:06,438 | INFO | my_app.database | Connection pool created
+2025-12-29 03:48:06,438 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:48:07,990 | INFO | my_app.database | Process for close pool
+2025-12-29 03:48:07,990 | INFO | my_app.database | Pool is closed
+2025-12-29 03:48:07,990 | INFO | my_app | App shutting down...
+2025-12-29 03:48:08,784 | INFO | my_app | App starting...
+2025-12-29 03:48:08,784 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:48:09,029 | INFO | my_app.database | Connection pool created
+2025-12-29 03:48:09,029 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:49:50,493 | INFO | my_app.database | Process for close pool
+2025-12-29 03:49:50,494 | INFO | my_app.database | Pool is closed
+2025-12-29 03:49:50,494 | INFO | my_app | App shutting down...
+2025-12-29 03:49:51,321 | INFO | my_app | App starting...
+2025-12-29 03:49:51,322 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:49:51,564 | INFO | my_app.database | Connection pool created
+2025-12-29 03:49:51,564 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:53:10,824 | INFO | my_app.database | Process for close pool
+2025-12-29 03:53:10,827 | INFO | my_app.database | Pool is closed
+2025-12-29 03:53:10,828 | INFO | my_app | App shutting down...
+2025-12-29 03:53:13,713 | INFO | my_app | App starting...
+2025-12-29 03:53:13,713 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:53:13,980 | INFO | my_app.database | Connection pool created
+2025-12-29 03:53:13,980 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:54:39,073 | INFO | my_app.database | Process for close pool
+2025-12-29 03:54:39,077 | INFO | my_app.database | Pool is closed
+2025-12-29 03:54:39,078 | INFO | my_app | App shutting down...
+2025-12-29 03:54:39,885 | INFO | my_app | App starting...
+2025-12-29 03:54:39,885 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:54:40,121 | INFO | my_app.database | Connection pool created
+2025-12-29 03:54:40,121 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:54:55,264 | INFO | my_app.database | Process for close pool
+2025-12-29 03:54:55,264 | INFO | my_app.database | Pool is closed
+2025-12-29 03:54:55,264 | INFO | my_app | App shutting down...
+2025-12-29 03:54:56,129 | INFO | my_app | App starting...
+2025-12-29 03:54:56,129 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:54:56,370 | INFO | my_app.database | Connection pool created
+2025-12-29 03:54:56,370 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:54:57,125 | ERROR | my_app.database.messages | Error creating message for ticket 1: столбец "content" в таблице "messages" не существует
+2025-12-29 03:55:30,256 | INFO | my_app.database | Process for close pool
+2025-12-29 03:55:30,256 | INFO | my_app.database | Pool is closed
+2025-12-29 03:55:30,256 | INFO | my_app | App shutting down...
+2025-12-29 03:55:31,296 | INFO | my_app | App starting...
+2025-12-29 03:55:31,303 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:55:31,718 | INFO | my_app.database | Connection pool created
+2025-12-29 03:55:31,718 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:55:37,176 | INFO | my_app.database | Process for close pool
+2025-12-29 03:55:37,176 | INFO | my_app.database | Pool is closed
+2025-12-29 03:55:37,176 | INFO | my_app | App shutting down...
+2025-12-29 03:55:38,334 | INFO | my_app | App starting...
+2025-12-29 03:55:38,334 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:55:38,676 | INFO | my_app.database | Connection pool created
+2025-12-29 03:55:38,676 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:55:55,895 | INFO | my_app.database | Process for close pool
+2025-12-29 03:55:55,898 | INFO | my_app.database | Pool is closed
+2025-12-29 03:55:55,899 | INFO | my_app | App shutting down...
+2025-12-29 03:55:56,749 | INFO | my_app | App starting...
+2025-12-29 03:55:56,749 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:55:57,013 | INFO | my_app.database | Connection pool created
+2025-12-29 03:55:57,013 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:56:20,102 | INFO | my_app.database | Process for close pool
+2025-12-29 03:56:20,102 | INFO | my_app.database | Pool is closed
+2025-12-29 03:56:20,107 | INFO | my_app | App shutting down...
+2025-12-29 03:56:20,911 | INFO | my_app | App starting...
+2025-12-29 03:56:20,911 | INFO | my_app.database | Creating connection pool
+2025-12-29 03:56:21,141 | INFO | my_app.database | Connection pool created
+2025-12-29 03:56:21,141 | INFO | my_app.database | DATABASE pool is init.
+2025-12-29 03:56:22,664 | ERROR | my_app.database.messages | Error creating message for ticket 1: INSERT или UPDATE в таблице "messages" нарушает ограничение внешнего ключа "fk_messages_ticket"
+DETAIL:   люч (ticket_id)=(1) отсутствует в таблице "tickets".
+2025-12-29 03:57:31,865 | INFO | my_app.database.messages | Message for ticket 8 created successfully.
+2025-12-29 03:58:02,445 | INFO | my_app.database.messages | Message for ticket 8 created successfully.

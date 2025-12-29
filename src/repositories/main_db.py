@@ -4,9 +4,10 @@ from config import settings
 
 from repositories.users import Users
 from repositories.tickets import Tickets
+from repositories.messages import Messages
 logger = logging.getLogger("my_app.database")
 
-class DatabaseManager(Users,Tickets):
+class DatabaseManager(Users,Tickets,Messages):
     def __init__(self):
         self.pool = None
     

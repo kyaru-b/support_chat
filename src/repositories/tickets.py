@@ -25,15 +25,15 @@ class Tickets:
                         """ 
                         INSERT INTO tickets (user_id, status) VALUES ($1, $2);
                         """,
-                        user_id,
+                        int(user_id['id']),
                         "open"
                     )
             LOGGER.info(f"Ticket for user {user_name} created successfully.")        
         except Exception as e:
             LOGGER.error(f"Error creating ticket for user {user_name}: {e}")
-            return None
+            return e
+        
     """SELECT requests"""
-
     async def get_ticket_by(self, ticket_id: int = None, user_id: int = None):
         if ticket_id is not None:
             try:
