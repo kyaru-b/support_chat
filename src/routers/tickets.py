@@ -33,6 +33,17 @@ async def create_ticket(data: BaseSchema.User):
         users = await db_manager.get_users_by_mail(email)
         if not users:
             return {"error": "No user found with this email."}
+        
+        user = users[0]
+        # Check for existing open ticket
+        existing_ticket = await db_manager.get_open_ticket(user['id'])
+        if existing_ticket:
+            return {
+                "message": "Active ticket found.", 
+                "ticket_id": existing_ticket['id'], 
+                "user_id": user['id']
+            }
+
     except Exception as e:  
         return {"error": str(e)}
     try:

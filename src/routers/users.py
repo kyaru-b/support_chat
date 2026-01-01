@@ -25,7 +25,7 @@ async def create_user(user: BaseSchema.User):
     try:
         existing_users = await db_manager.get_users_by_mail(email)
         if existing_users: 
-            return {"error": "User with this email already exists."}   
+            return {"message": "User already exists.", "user": existing_users[0]}   
     except Exception as e:
         return []
     else:

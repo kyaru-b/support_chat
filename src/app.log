@@ -46,3 +46,17 @@ DETAIL:   люч "(user_id)=(126102)" уже существует.
 2026-01-01 19:20:09,503 | INFO | my_app.database | Process for close pool
 2026-01-01 19:20:09,504 | INFO | my_app.database | Pool is closed
 2026-01-01 19:20:09,505 | INFO | my_app | App shutting down...
+2026-01-01 20:07:02,968 | INFO | my_app | App starting...
+2026-01-01 20:07:02,969 | INFO | my_app.database | Creating connection pool
+2026-01-01 20:07:03,338 | INFO | my_app.database | Connection pool created
+2026-01-01 20:07:03,338 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 20:08:31,195 | ERROR | my_app.database.users | Error creating ticket for user user_3zlnffwa: повтор€ющеес€ значение ключа нарушает ограничение уникальности "idx_one_open_ticket_per_user"
+DETAIL:   люч "(user_id)=(126103)" уже существует.
+2026-01-01 20:16:43,504 | INFO | my_app | App starting...
+2026-01-01 20:16:43,504 | INFO | my_app.database | Creating connection pool
+2026-01-01 20:16:43,858 | INFO | my_app.database | Connection pool created
+2026-01-01 20:16:43,858 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 20:17:53,625 | INFO | my_app.database.messages | Message for ticket 11 created successfully.
+2026-01-01 20:18:05,231 | INFO | my_app.database | Process for close pool
+2026-01-01 20:18:05,234 | INFO | my_app.database | Pool is closed
+2026-01-01 20:18:05,235 | INFO | my_app | App shutting down...

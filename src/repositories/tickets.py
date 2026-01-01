@@ -77,5 +77,17 @@ class Tickets:
                     return tickets
             except Exception as e:
                 LOGGER.error(f"Error fetching tickets for user {user_id}: {e}")
-                return []   
+                return []
+
+    async def get_open_ticket(self, user_id: int):
+        try:
+            async with self.pool.acquire() as conn:
+                ticket = await conn.fetchrow(
+                    "SELECT * FROM tickets WHERE user_id = $1 AND status = 'open';",
+                    user_id
+                )
+                return ticket
+        except Exception as e:
+            LOGGER.error(f"Error fetching open ticket for user {user_id}: {e}")
+            return None
             
