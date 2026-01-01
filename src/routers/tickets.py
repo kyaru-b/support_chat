@@ -40,7 +40,7 @@ async def create_ticket(data: BaseSchema.User):
         if isinstance(ticket_id, Exception):
             return {"error": str(ticket_id)}
         if ticket_id is not None:
-            return {"message": f"Ticket for user {users[0]['username']} created successfully.", "ticket_id": ticket_id}
+            return {"message": f"Ticket for user {users[0]['username']} created successfully.", "ticket_id": ticket_id, "user_id": users[0]['id']}
         return {"error": "Failed to create ticket."}
     except Exception as e:
         return {"error": str(e)}

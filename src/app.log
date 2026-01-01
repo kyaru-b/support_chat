@@ -11,3 +11,38 @@ DETAIL:  Ключ "(user_id)=(126102)" уже существует.
 2025-12-30 18:23:07,213 | INFO | my_app.database.users | User user_3zlnffwa created successfully.
 2025-12-30 18:23:09,571 | INFO | my_app.database.users | Ticket for user user_3zlnffwa created successfully. id=16
 2025-12-30 18:23:29,145 | INFO | my_app.database.messages | Message for ticket 16 created successfully.
+2026-01-01 18:00:54,440 | INFO | my_app | App starting...
+2026-01-01 18:00:54,440 | INFO | my_app.database | Creating connection pool
+2026-01-01 18:00:55,159 | INFO | my_app.database | Connection pool created
+2026-01-01 18:00:55,159 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 18:02:44,840 | INFO | my_app.database | Process for close pool
+2026-01-01 18:02:44,861 | INFO | my_app.database | Pool is closed
+2026-01-01 18:02:44,879 | INFO | my_app | App shutting down...
+2026-01-01 18:02:47,888 | INFO | my_app | App starting...
+2026-01-01 18:02:47,888 | INFO | my_app.database | Creating connection pool
+2026-01-01 18:02:48,908 | INFO | my_app.database | Connection pool created
+2026-01-01 18:02:48,909 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 18:03:07,352 | INFO | my_app.database | Process for close pool
+2026-01-01 18:03:07,381 | INFO | my_app.database | Pool is closed
+2026-01-01 18:03:07,388 | INFO | my_app | App shutting down...
+2026-01-01 18:03:09,417 | INFO | my_app | App starting...
+2026-01-01 18:03:09,417 | INFO | my_app.database | Creating connection pool
+2026-01-01 18:03:10,150 | INFO | my_app.database | Connection pool created
+2026-01-01 18:03:10,150 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 18:12:35,022 | INFO | my_app.database | Process for close pool
+2026-01-01 18:12:35,023 | INFO | my_app.database | Pool is closed
+2026-01-01 18:12:35,026 | INFO | my_app | App shutting down...
+2026-01-01 18:12:37,646 | INFO | my_app | App starting...
+2026-01-01 18:12:37,646 | INFO | my_app.database | Creating connection pool
+2026-01-01 18:12:38,558 | INFO | my_app.database | Connection pool created
+2026-01-01 18:12:38,558 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 18:13:26,396 | INFO | my_app.database | Process for close pool
+2026-01-01 18:13:26,453 | INFO | my_app.database | Pool is closed
+2026-01-01 18:13:26,497 | INFO | my_app | App shutting down...
+2026-01-01 18:13:28,644 | INFO | my_app | App starting...
+2026-01-01 18:13:28,644 | INFO | my_app.database | Creating connection pool
+2026-01-01 18:13:29,425 | INFO | my_app.database | Connection pool created
+2026-01-01 18:13:29,425 | INFO | my_app.database | DATABASE pool is init.
+2026-01-01 19:20:09,503 | INFO | my_app.database | Process for close pool
+2026-01-01 19:20:09,504 | INFO | my_app.database | Pool is closed
+2026-01-01 19:20:09,505 | INFO | my_app | App shutting down...
