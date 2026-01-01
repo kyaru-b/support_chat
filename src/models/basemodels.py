@@ -14,3 +14,6 @@ class BaseSchema(BaseModel):
         ticket_id: int
         email: str
         content: str
+    
+    class CloseTicket(BaseModel):
+        ticket_id: int

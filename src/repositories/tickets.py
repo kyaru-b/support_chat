@@ -20,17 +20,37 @@ class Tickets:
                     user_id = await conn.fetchrow("""
                         SELECT id FROM users WHERE username = $1;
                     """, user_name)
-                
-                    await conn.execute(
+                    if not user_id:
+                        raise Exception(f"User {user_name} not found")
+
+                    row = await conn.fetchrow(
                         """ 
-                        INSERT INTO tickets (user_id, status) VALUES ($1, $2);
+                        INSERT INTO tickets (user_id, status) VALUES ($1, $2) RETURNING id;
                         """,
                         int(user_id['id']),
                         "open"
                     )
-            LOGGER.info(f"Ticket for user {user_name} created successfully.")        
+                    ticket_id = row['id'] if row and 'id' in row else None
+            LOGGER.info(f"Ticket for user {user_name} created successfully. id={ticket_id}")        
+            return ticket_id
         except Exception as e:
             LOGGER.error(f"Error creating ticket for user {user_name}: {e}")
+            return e
+            
+    async def close_ticket(self, ticket_id: int):
+        try:
+            async with self.pool.acquire() as conn:
+                async with conn.transaction():
+                    await conn.execute(
+                        """
+                        UPDATE tickets SET status = $1 WHERE id = $2;
+                        """,
+                        "closed",
+                        ticket_id
+                    )
+            LOGGER.info(f"Ticket {ticket_id} closed successfully.")
+        except Exception as e:
+            LOGGER.error(f"Error closing ticket {ticket_id}: {e}")
             return e
         
     """SELECT requests"""
